@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: PMPL-1.0-or-later
+= Awesome Idris 2 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) — Show Me The Receipts
+:toc:
+:icons: font
+
+The README makes claims. This file backs them up.
+
+[quote, README]
+____
+Idris 2 is a purely functional programming language with first-class dependent types, quantitative type theory, and multiple backends. It is the successor to Idris 1, rebuilt from the ground up with a self-hosting compiler written in Idris 2 itself.
+____
+
+== Questions?
+
+Open an issue or reach out directly — happy to explain anything in more detail.
