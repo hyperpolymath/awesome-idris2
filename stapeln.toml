@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: PMPL-1.0-or-later
+
+[project]
+name = "awesome-idris2"
+description = "Awesome Idris 2 resources"
+
+[container]
+base = "cgr.dev/chainguard/wolfi-base:latest"
