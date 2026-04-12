@@ -1,0 +1,214 @@
+// SPDX-License-Identifier: CC0-1.0
+
+= Awesome Idris 2 image:https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome,link="https://github.com/sindresorhus/awesome"]
+:toc: preamble
+:icons: font
+
+image:https://www.idris-lang.org/logo/logo.png[Idris 2 logo,160,float=right,link="https://www.idris-lang.org/"]
+
+____
+A curated, actively maintained list of awesome https://www.idris-lang.org/[Idris 2] resources, libraries, tools, and projects.
+____
+
+Idris 2 is a purely functional programming language with first-class dependent types, quantitative type theory, and multiple backends. It is the successor to Idris 1, rebuilt from the ground up with a self-hosting compiler written in Idris 2 itself.
+
+*This list focuses on Idris 2.* Classic Idris 1 resources are preserved in a <<idris-1-legacy,legacy section>> for reference.
+
+_Maintained by https://github.com/hyperpolymath[Jonathan D.A. Jewell]. Contributions welcome — see link:CONTRIBUTING.md[CONTRIBUTING.md]._
+
+Wondering how this works? See link:EXPLAINME.adoc[].
+
+== Official Resources
+
+* https://www.idris-lang.org/[Idris 2 Language] — Official website.
+* https://github.com/idris-lang/Idris2[idris-lang/Idris2] — Compiler and standard library (2.9k+ stars, actively maintained).
+* https://idris2.readthedocs.io/[Idris 2 Documentation] — Official docs and language reference.
+* https://github.com/idris-lang/Idris2/blob/main/CHANGELOG.md[Idris 2 CHANGELOG] — Release history and breaking changes.
+
+== Tutorials & Learning
+
+* https://github.com/stefan-hoeck/idris2-tutorial[stefan-hoeck/idris2-tutorial] — Comprehensive Idris 2 tutorial covering dependent types, elaborator reflection, and practical patterns. Actively maintained.
+* https://github.com/idris-community/idris2-tutorial[idris-community/idris2-tutorial] — Community-maintained tutorial for getting started with Idris 2.
+* https://github.com/idris-hackers/idris-koans[idris-hackers/idris-koans] — Learning exercises with failing tests to fix, koan-style.
+* https://github.com/andorp/order-taking[andorp/order-taking] — "Domain Modeling Made Functional" implemented in Idris 2.
+
+== Books
+
+* https://www.manning.com/books/type-driven-development-with-idris[Type Driven Development With Idris] — Edwin Brady. The definitive book on dependent types in practice (covers Idris 1 but concepts transfer directly).
+* https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/[Type Theory and Functional Programming] — Simon Thompson. Foundational type theory.
+* http://www.cse.chalmers.se/research/group/logic/book/book.pdf[Programming in Martin-Löf's Type Theory] — Bengt Nordström et al. The theoretical underpinning.
+* https://idris-hackers.github.io/software-foundations/pdf/sf-idris-2018.pdf[Software Foundations] — Formal proofs in Idris. https://github.com/idris-hackers/software-foundations[Repo].
+* https://leanpub.com/gidti[Gentle Introduction to Dependent Types with Idris] — Accessible introduction for newcomers.
+
+== Papers
+
+* https://arxiv.org/abs/2104.00480[Idris 2: Quantitative Type Theory in Practice] — Edwin Brady, 2021. The Idris 2 design paper.
+* https://eb.host.cs.st-andrews.ac.uk/drafts/elab-reflection.pdf[Elaborator Reflection: Extending Idris in Idris] — David Christiansen and Edwin Brady, 2016.
+* https://eb.host.cs.st-andrews.ac.uk/drafts/compile-idris.pdf[Cross-platform Compilers for Functional Languages] — Edwin Brady, 2015.
+* https://eb.host.cs.st-andrews.ac.uk/drafts/eff-tutorial.pdf[Programming and Reasoning with Side-Effects in Idris] — Edwin Brady, 2014.
+* https://pdfs.semanticscholar.org/1407/220ca09070233dca256433430d29e5321dc2.pdf[Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation] — Edwin Brady, 2013.
+* https://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf[Programming and Reasoning with Algebraic Effects and Dependent Types] — Edwin Brady, 2013.
+* http://eb.host.cs.st-andrews.ac.uk/writings/plmms13.pdf[Sequential decision problems, dependently typed solutions] — Nicola Botta, Cezar Ionescu and Edwin Brady, 2013.
+* https://eb.host.cs.st-andrews.ac.uk/writings/plpv11.pdf[Idris — Systems Programming Meets Full Dependent Types] — Edwin Brady, 2011.
+* http://eb.host.cs.st-andrews.ac.uk/writings/icfp10.pdf[Scrapping your Inefficient Engine: using Partial Evaluation to Improve Domain-Specific Language Implementation] — Edwin Brady and Kevin Hammond, 2010.
+* http://eb.host.cs.st-andrews.ac.uk/writings/fi-cbc.pdf[Correct-by-Construction Concurrency: using Dependent Types to Verify Implementations of Effectful Resource Usage Protocols] — Edwin Brady and Kevin Hammond, 2010.
+
+== Presentations
+
+* https://www.youtube.com/watch?v=vkIlW797JN8[Idris: General Purpose Programming with Dependent Types] — Edwin Brady, Idris creator.
+* https://www.youtube.com/watch?v=mOtKD7ml0NU[Idris 2: Type-driven Development of Idris] — Edwin Brady on building Idris 2 in Idris.
+
+== Package Management & Build Tools
+
+* https://github.com/stefan-hoeck/idris2-pack[idris2-pack] — The standard package manager and build tool for Idris 2. Actively maintained.
+* https://github.com/stefan-hoeck/idris2-pack-db[idris2-pack-db] — Package database for idris2-pack, with curated library versions.
+
+== Editor & IDE Support
+
+* https://github.com/idris-community/idris2-lsp[idris2-lsp] — Language Server Protocol implementation for Idris 2 (187 stars). Works with any LSP-compatible editor.
+* https://github.com/idris-community/idris2-mode[idris2-mode] — Emacs major mode with syntax highlighting and compiler integration.
+* https://github.com/idris-community/idris2-nvim[idris2-nvim] — Neovim LSP configuration and interactive editing tools.
+* https://github.com/edwinb/idris2-vim[idris2-vim] — Vim mode for Idris 2.
+
+== Backends & Code Generators
+
+* https://github.com/mmhelloworld/idris-jvm[idris-jvm] — JVM bytecode backend (479 stars). Actively maintained.
+* https://github.com/christian-public/Idris2-Erlang[Idris2-Erlang] — Erlang/OTP code generator for Idris 2 (146 stars).
+* https://github.com/bamboo/idris2dart[idris2dart] — Dart backend for Idris 2.
+* https://github.com/Z-snails/Idris2-Grin[Idris2-Grin] — GRIN intermediate representation backend.
+* https://github.com/jameshaydon/idris-elixir[idris-elixir] — Elixir code generator for BEAM deployment.
+* https://github.com/Russoul/Idris2-Lua[Idris2-Lua] — Lua backend for Idris 2.
+* https://github.com/madman-bob/idris2-python[idris2-python] — Python backend for Idris 2.
+
+== Core Libraries
+
+_Libraries by https://github.com/stefan-hoeck[stefan-hoeck], the most prolific Idris 2 library author:_
+
+* https://github.com/stefan-hoeck/idris2-elab-util[idris2-elab-util] — Elaborator reflection utilities for metaprogramming.
+* https://github.com/stefan-hoeck/idris2-sop[idris2-sop] — Sum-of-products generic programming (port of Haskell's sop-core).
+* https://github.com/stefan-hoeck/idris2-tailrec[idris2-tailrec] — Tail-call optimised monadic recursion schemes.
+* https://github.com/stefan-hoeck/idris2-ref1[idris2-ref1] — Linear mutable references with quantitative type safety.
+
+_Community libraries:_
+
+* https://github.com/idris-community/idris2-containers[idris2-containers] — Assorted container types (maps, sets, queues, etc.).
+* https://github.com/idris-community/nonstandard-library[idris-community/nonstandard-library] — Useful utilities beyond the standard library.
+* https://github.com/idris-community/idris2-ansi[idris2-ansi] — ANSI escape sequence support for terminal output.
+
+== Web & DOM
+
+* https://github.com/stefan-hoeck/idris2-dom[idris2-dom] — Type-safe JavaScript DOM bindings for Idris 2.
+* https://github.com/stefan-hoeck/idris2-dom-mvc[idris2-dom-mvc] — Single-page web application framework built on idris2-dom.
+* https://github.com/stefan-hoeck/idris2-webidl[idris2-webidl] — WebIDL parser and Idris 2 binding code generator.
+* https://github.com/stefan-hoeck/idris2-rhone[idris2-rhone] — Functional reactive programming for web UIs.
+
+== Parsing & Data Formats
+
+* https://github.com/stefan-hoeck/idris2-parser[idris2-parser] — Total lexer and parser combinators for Idris 2.
+* https://github.com/stefan-hoeck/idris2-json[idris2-json] — JSON serialisation and deserialisation.
+* https://github.com/hyperpolymath/developer-ecosystem[a2ml-idris2] — A2ML (Anthropic Augmented Markup Language) parser and serialiser for Idris 2. Part of the developer-ecosystem.
+* https://github.com/hyperpolymath/developer-ecosystem[k9-idris2] — K9 contractile validator for Idris 2. Formal contract validation with dependent types.
+
+== Networking & Protocols
+
+* https://github.com/idris-community/idris2-http[idris2-http] — HTTP(S) client library.
+* https://github.com/idris-community/idris2-tls[idris2-tls] — Portable TLS implementation.
+* https://github.com/idris-community/idris2-scgi[idris2-scgi] — SCGI server utilities for web backends.
+* https://github.com/hyperpolymath/proven-servers[proven-servers] — Formally verified network protocol implementations with dependent-type state machines for TLS, HTTP, DNS, sockets, and distributed systems.
+
+== Concurrency & Async
+
+* https://github.com/stefan-hoeck/idris2-async[idris2-async] — Async and concurrent computations with structured concurrency.
+
+== Testing & Property Checking
+
+* https://github.com/stefan-hoeck/idris2-hedgehog[idris2-hedgehog] — Property-based testing library (port of Haskell's Hedgehog).
+
+== Formal Verification & Proofs
+
+* https://github.com/hyperpolymath/proven[proven] — Formally verified safety library with 100+ dependent-type-proven `Safe*` modules for cryptography, networking, data processing, and system operations. Production-ready.
+* https://github.com/statebox/idris-ct[idris-ct] — Formally verified category theory library (270 stars).
+* https://github.com/typedefs/typedefs[typedefs] — Language-agnostic algebraic data type definitions with formal proofs (370 stars).
+* https://github.com/anoma/geb[geb] — Categorical view of computation (Anoma project).
+* https://github.com/hyperpolymath/typed-wasm[typed-wasm] — 10-level type-safe WebAssembly with dependent types for memory safety proofs.
+* https://github.com/hyperpolymath/echidna[echidna] — Neurosymbolic theorem prover framework with formal proof state ABIs for 30 backend integrations (Z3, Lean, Coq, Isabelle, etc.).
+
+== Graphics & Multimedia
+
+* https://github.com/ECburx/Idris2GL[Idris2GL] — Graphics library for Idris 2 with OpenGL bindings (74 stars).
+
+== System & Platform
+
+* https://github.com/stefan-hoeck/idris2-linux[idris2-linux] — GNU/Linux system utilities and syscall bindings.
+* https://github.com/idris-community/idris2-getopts[idris2-getopts] — Command-line option processing.
+* https://github.com/idris-community/LSP-lib[LSP-lib] — Universal Language Server Protocol library.
+
+== Applications & Projects
+
+* https://github.com/trending/idris[GitHub Trending Idris] — Currently trending Idris repositories.
+* https://github.com/hyperpolymath/boj-server[boj-server] — MCP (Model Context Protocol) server with 70+ tool cartridges, using Idris 2 for ABI definitions. Connects AI assistants to GitHub, GitLab, cloud providers, and developer tools.
+* https://github.com/KesterTong/idris2048[idris2048] — 2048 game implemented in Idris.
+* https://github.com/idris-hackers/idris-crypto[idris-crypto] — Cryptographic primitives.
+* https://github.com/idris-hackers/idris-demos[idris-demos] — Collection of demos and examples.
+
+== Community
+
+* https://github.com/idris-community[Idris Community (GitHub org)] — Modern community organisation maintaining core libraries and tools.
+* https://github.com/idris-hackers[Idris Hackers (GitHub org)] — Original community group with many foundational projects.
+* https://discord.gg/YXmWC5yKYM[Idris Discord] — Active community chat.
+* https://discourse.idris-lang.org/[Idris Discourse] — Discussion forum.
+* https://www.reddit.com/r/Idris/[r/Idris] — Reddit community.
+* http://groups.google.com/group/idris-lang[Mailing list] — Google Groups mailing list.
+
+=== Key Contributors
+
+* *https://github.com/edwinb[Edwin Brady]* — Creator of Idris and Idris 2. Author of _Type Driven Development with Idris_.
+* *https://github.com/stefan-hoeck[stefan-hoeck]* — Most prolific Idris 2 library author. Maintains idris2-pack, 15+ core libraries.
+* *https://github.com/mattpolzin[mattpolzin]* — Author of pg-idris (PostgreSQL client).
+
+[#idris-1-legacy]
+== Idris 1 Legacy
+
+_These resources target Idris 1. They are preserved for historical reference but may not work with Idris 2._
+
+=== Idris 1 Libraries
+
+* https://github.com/ziman/lightyear[lightyear] — Parser combinators for Idris 1.
+* https://github.com/timjb/quantities[quantities] — Type-safe physical computations and unit conversions.
+* https://github.com/david-christiansen/idris-type-providers[idris-type-providers] — Type provider library.
+* https://github.com/idris-hackers/IdrisScript[IdrisScript] — FFI bindings for JavaScript.
+* https://github.com/jfdm/idris-containers[idris-containers] — Data structures for Idris 1.
+* https://github.com/david-christiansen/IdrisSqlite[IdrisSqlite] — Effectful SQLite bindings.
+* https://github.com/uwap/idris-http[idris-http] — HTTP library.
+* https://github.com/FranckS/RingIdris[RingIdris] — Ring solver.
+* https://github.com/pheymann/specdris[specdris] — Test framework.
+* https://github.com/jfdm/idris-config[idris-config] — Configuration file parsers.
+* https://github.com/BlackBrane/probability[probability] — Probabilistic computation.
+* https://github.com/google/idris-protobuf[idris-protobuf] — Protocol Buffers (partial).
+* https://github.com/idris-hackers/idris-free[idris-free] — Free Monads.
+* https://github.com/puffnfresh/iridium[iridium] — xmonad with X11 abstracted in Idris 1.
+
+=== Idris 1 Backends
+
+* https://github.com/idris-hackers/idris-llvm[idris-llvm] — LLVM backend.
+* https://github.com/lenary/idris-erlang[idris-erlang] — Erlang backend.
+* https://github.com/stedolan/idris-malfunction[idris-malfunction] — OCaml Malfunction backend.
+
+=== Idris 1 Build Tools
+
+* http://idris.build[Idris Rules] — Bazel rules for Idris 1.
+* https://github.com/idris-industry/ikan[Ikan] — Package manager written in Idris 1.
+* https://github.com/elba/elba[Elba] — Package manager for Idris 1.
+* https://github.com/idream-build/idream[idream] — Build system for Idris 1.
+
+=== Idris 1 Official
+
+* https://github.com/idris-lang/Idris-dev[Idris 1 repo] — Original Idris compiler (Haskell-based).
+* https://www.idris-lang.org/documentation/community-standards/[Idris 1 Community Standards]
+
+== License
+
+image:http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg[CC0,link="https://creativecommons.org/publicdomain/zero/1.0/"]
+
+To the extent possible under law, the contributors have waived all copyright
+and related rights to this work. See link:LICENSE[LICENSE] for details.
