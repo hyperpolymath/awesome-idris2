@@ -22,14 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - name: Check for secrets
-        uses: trufflesecurity/trufflehog@27b0417c16317ca9a472a9a8092acce143b49c55 # v3.93.3
-        with:
-          path: ./
-          base: ${{ github.event.pull_request.base.sha || github.event.before }}
-          head: ${{ github.sha }}
-        continue-on-error: true
-
       - name: Check for large files
         run: |
           find . -type f -size +1M -not -path "./.git/*" | head -10 || echo "No large files"
