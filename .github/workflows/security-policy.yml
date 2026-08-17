@@ -1,6 +1,16 @@
 # SPDX-License-Identifier: MPL-2.0
+# This workflow is managed by gh actions-lock.
 name: Security Policy
-on: [push, pull_request]
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+# Estate guardrail: scope push to default branches (PR fires once, not
+# push+PR) and cancel superseded runs. Safe — read-only PR check.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -11,7 +21,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/checkout@v7.0.1
       - name: Security checks
         run: |
           FAILED=false

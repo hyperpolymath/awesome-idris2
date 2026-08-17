@@ -1,9 +1,8 @@
 # SPDX-License-Identifier: PMPL-1.0-or-later
+# This workflow is managed by gh actions-lock.
 name: OSSF Scorecard
 
 on:
-  push:
-    branches: [main, master]
   schedule:
     - cron: '0 4 * * *'
   workflow_dispatch:
