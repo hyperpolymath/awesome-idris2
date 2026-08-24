@@ -1,0 +1,40 @@
+== Contributing to Awesome Idris 2
+
+Thank you for contributing! This list focuses on *Idris 2* resources.
+
+=== Guidelines
+
+[arabic]
+. *Idris 2 only* for the main sections. Idris 1 resources go in the
+link:README.md#idris-1-legacy[Legacy section].
+. *One link per pull request* unless the entries are closely related.
+. *Format*: `+* [name](url) — Short description ending with a period.+`
+. *Maintained projects preferred* — if a project hasn’t been updated in
+2+ years, note that in the description.
+. *Alphabetical order* within each section.
+. *No duplicates* — search the list before submitting.
+. *Working links* — verify your URLs resolve before submitting.
+
+=== What belongs here
+
+* Libraries, frameworks, and tools written in or for Idris 2
+* Tutorials, books, papers, and talks about Idris 2
+* Backends and code generators targeting Idris 2
+* Applications and projects built with Idris 2
+* Community resources (forums, chats, organisations)
+
+=== What does not belong
+
+* General functional programming resources (unless specifically about
+Idris/dependent types)
+* Abandoned projects with no code (empty repos)
+* Paid courses or tools (unless they also offer free tiers)
+
+=== Process
+
+[arabic]
+. Fork this repository
+. Add your entry in the appropriate section
+. Submit a pull request with a brief description of why it belongs
+
+*Author:* Jonathan D.A. Jewell j.d.a.jewell@open.ac.uk
