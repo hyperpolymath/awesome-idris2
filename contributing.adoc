@@ -1,0 +1,77 @@
+== Contribution Guidelines
+
+== The pull request should have a useful title.
+
+=== Table of Contents
+
+* link:#adding-to-this-list[Adding to this list]
+* link:#creating-your-own-awesome-list[Creating your own awesome list]
+* link:#adding-something-to-an-awesome-list[Adding something to an
+awesome list]
+* link:#updating-your-pull-request[Updating your Pull Request]
+
+=== Adding to this list
+
+Please ensure your pull request adheres to the following guidelines:
+
+* Search previous suggestions before making a new one, as yours may be a
+duplicate.
+* Make sure the list is useful before submitting. That implies it has
+enough content and every item has a good succinct description.
+* Make an individual pull request for each suggestion.
+* Use http://titlecapitalization.com[title-casing] (AP style).
+* Use the following format: `+[List Name](link)+`
+* Link additions should be added to the bottom of the relevant category.
+* New categories or improvements to the existing categorization are
+welcome.
+* Check your spelling and grammar.
+* Make sure your text editor is set to remove trailing whitespace.
+* The pull request and commit should have a useful title.
+* The body of your commit message should contain a link to the
+repository.
+
+Thank you for your suggestions!
+
+=== Creating your own awesome list
+
+To create your own list, check out the
+link:create-list.md[instructions].
+
+=== Adding something to an awesome list
+
+If you have something awesome to contribute to an awesome list, this is
+how you do it.
+
+You’ll need a https://github.com/join[GitHub account]!
+
+[arabic]
+. Access the awesome list’s GitHub page. For example:
+https://github.com/sindresorhus/awesome
+. Click on the `+readme.md+` file:
+image:https://cloud.githubusercontent.com/assets/170270/9402920/53a7e3ea-480c-11e5-9d81-aecf64be55eb.png[Step
+2 Click on Readme.md]
+. Now click on the edit icon.
+image:https://cloud.githubusercontent.com/assets/170270/9402927/6506af22-480c-11e5-8c18-7ea823530099.png[Step
+3 - Click on Edit]
+. You can start editing the text of the file in the in-browser editor.
+Make sure you follow guidelines above. You can use
+https://help.github.com/articles/github-flavored-markdown/[GitHub
+Flavored Markdown].
+image:https://cloud.githubusercontent.com/assets/170270/9402932/7301c3a0-480c-11e5-81f5-7e343b71674f.png[Step
+4 - Edit the file]
+. Say why you’re proposing the changes, and then click on "`Propose file
+change`".
+image:https://cloud.githubusercontent.com/assets/170270/9402937/7dd0652a-480c-11e5-9138-bd14244593d5.png[Step
+5 - Propose Changes]
+. Submit the https://help.github.com/articles/using-pull-requests/[pull
+request]!
+
+=== Updating your Pull Request
+
+Sometimes, a maintainer of an awesome list will ask you to edit your
+Pull Request before it is included. This is normally due to spelling
+errors or because your PR didn’t match the awesome-* list guidelines.
+
+https://github.com/RichardLitt/docs/blob/master/amending-a-commit-guide.md[Here]
+is a write up on how to change a Pull Request, and the different ways
+you can do that.
