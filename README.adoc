@@ -14,7 +14,7 @@ Idris 2 is a purely functional programming language with first-class dependent t
 
 *This list focuses on Idris 2.* Classic Idris 1 resources are preserved in a <<idris-1-legacy,legacy section>> for reference.
 
-_Maintained by https://github.com/hyperpolymath[Jonathan D.A. Jewell]. Contributions welcome — see link:CONTRIBUTING.md[CONTRIBUTING.md]._
+_Maintained by https://github.com/hyperpolymath[Jonathan D.A. Jewell]. Contributions welcome — see link:.github/CONTRIBUTING.md[CONTRIBUTING.md]._
 
 Wondering how this works? See link:EXPLAINME.adoc[].
 
